@@ -1,0 +1,1 @@
+mpicc -o "/home/clong4947/projects/metis/bin/x64/Debug/metis.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/clong4947/projects/metis/obj/x64/Debug/cJSON.o /home/clong4947/projects/metis/obj/x64/Debug/main.o

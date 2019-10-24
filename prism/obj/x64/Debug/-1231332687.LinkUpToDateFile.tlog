@@ -1,0 +1,1 @@
+mpicc -o "/home/gwillard4695/projects/prism/bin/x64/Debug/prism.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/gwillard4695/projects/prism/obj/x64/Debug/main.o

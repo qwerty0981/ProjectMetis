@@ -1,0 +1,49 @@
+{
+"neurons": [
+	{
+		"name": "neuron1",
+		"connections": [
+			{
+			"neuron": "neuron2",
+			"sensitivity": 0.5
+			},
+			{
+			"neuron": "neuron3",
+			"sensitivity": 0.3
+			}
+		]
+	},
+	{
+		"name": "neuron2",
+		"connections": [
+			{
+			"neuron":"neuron3",
+			"sensitivity": 0.2
+			}
+		]
+	},
+	{
+		"name":"neuron3",
+		"connections": []
+	}
+],
+"io": [
+	{
+		"name": "Reader",
+		"type": 1,
+		"connections": [
+			{"neuron":"neuron3"}
+		],
+		"outputPrefix":"Neuron3_out:: "
+	},
+	{
+		"name": "stimulus 1",
+		"type": 0,
+		"connections": [
+			{"neuron":"neuron1"}
+		],
+		"duration": 1,
+		"amplitude": 20
+	}
+]
+}

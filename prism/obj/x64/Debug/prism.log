@@ -1,0 +1,25 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\obj\x64\Debug\) contains files shared from another project (prism.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Validating sources
+  Copying sources remotely to 'login.hpc.lab'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.c
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(97,2): warning : passing argument 1 of ‘parseFile’ discards ‘const’ qualifier from pointer target type [enabled by default]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(97,2): warning :   cJSON* file = parseFile(filename);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(97,2): warning :   ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(54,8): message : expected ‘char *’ but argument is of type ‘const char *’
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(54,8): message :  cJSON* parseFile(char*);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(54,8): message :         ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(154,16): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(154,16): warning :   length = ftell(f);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(154,16): warning :                 ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(156,2): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(156,2): warning :   buffer = malloc(length);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(156,2): warning :   ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(159,3): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(159,3): warning :    fread(buffer, 1, length, f);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\main.c(159,3): warning :    ^
+  Linking objects
+  prism.vcxproj -> Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\prism\bin\x64\Debug\metis.out
