@@ -92,7 +92,8 @@ int main(int argc, char** argv) {
 	printf("Hello world from processor %s, rank %d out of %d processors\n",
 			processor_name, world_rank, world_size);
 
-	const char filename[] = "/home/clong4947/projects/metis/test.json";
+	//const char filename[] = "/home/clong4947/projects/metis/test.json";
+	const char filename[] = "model.json";
 
 	cJSON* file = parseFile(filename);
 	if (file == NULL) {
