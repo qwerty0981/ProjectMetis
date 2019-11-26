@@ -1,0 +1,44 @@
+﻿  Cleaning remote project directory
+  Validating sources
+  Copying sources remotely to 'login.hpc.lab'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  cJSON.c
+  main.c
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(120,12): warning : assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(120,12): warning :    filename = DEFUALT_FILE;
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(120,12): warning :             ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(214,3): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(214,3): warning :    memset(nodes, -1, maxNumberOfNeuronsPerNode);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(214,3): warning :    ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(270,2): warning : implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(270,2): warning :   sleep(2);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(270,2): warning :   ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(282,2): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(282,2): warning :   memset(nodes, -1, maxNumberOfNeuronsPerNode);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(282,2): warning :   ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(310,54): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(310,54): warning :   int * buffer = malloc((sizeof(int) * (numberOfNodes - 1) * 2) + MPI_BSEND_OVERHEAD);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(310,54): warning :                                                       ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(311,58): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(311,58): warning :   MPI_Buffer_attach(buffer, (sizeof(int) * (numberOfNodes - 1) * 2) + MPI_BSEND_OVERHEAD);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(311,58): warning :                                                           ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(311,68): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(311,68): warning :   MPI_Buffer_attach(buffer, (sizeof(int) * (numberOfNodes - 1) * 2) + MPI_BSEND_OVERHEAD);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(311,68): warning :                                                                     ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(492,8): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wconversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(492,8): warning :         cursor->nextValue = total;
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(492,8): warning :         ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(537,16): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(537,16): warning :   length = ftell(f);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(537,16): warning :                 ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(539,2): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(539,2): warning :   buffer = malloc(length);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(539,2): warning :   ^
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(542,3): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(542,3): warning :    fread(buffer, 1, length, f);
+Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\main.c(542,3): warning :    ^
+  Linking objects
+  metis.vcxproj -> Z:\Google Drive\Documents\School\College\2019-2020\Semester 1\Parallel and Distributed Computing\Project Metis\metis\bin\x64\Debug\metis.out
